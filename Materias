@@ -1,0 +1,6 @@
+CREATE TABLE materias (
+	ID_mat INT PRIMARY KEY,
+	nome_mat VARCHAR(50) NOT NULL,
+	qtd_cred INT NOT NULL
+
+);
