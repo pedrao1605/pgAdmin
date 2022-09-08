@@ -1,0 +1,2 @@
+INSERT INTO professores (rp_professor,nome_prof,sobrenome_prof)
+VALUES (2203948, 'Leandro Alonso', 'Xastre');
