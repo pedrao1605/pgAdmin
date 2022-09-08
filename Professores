@@ -1,5 +1,5 @@
 CREATE TABLE professores (
-	RP_aluno INT PRIMARY KEY,
+	RP_professor INT PRIMARY KEY,
 	nome_prof VARCHAR(50) NOT NULL,
 	sobrenome_prof VARCHAR(100) NOT NULL
 
