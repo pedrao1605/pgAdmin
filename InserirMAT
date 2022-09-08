@@ -1,0 +1,2 @@
+INSERT INTO materias (ID_mat,nome_mat,qtd_cred)
+VALUES (12313, 'Organização de Sistemas', 3);
