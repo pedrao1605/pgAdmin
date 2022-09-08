@@ -1,0 +1,2 @@
+INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno)
+VALUES (22013918, 'Pedro Augusto', 'Eickhoff');
