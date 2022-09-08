@@ -1,0 +1,6 @@
+CREATE TABLE alunos (
+	RA_aluno INT PRIMARY KEY,
+	nome_aluno VARCHAR(50) NOT NULL,
+	sobrenome_aluno VARCHAR(100) NOT NULL
+
+);
