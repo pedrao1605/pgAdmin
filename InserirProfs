@@ -1,2 +1,8 @@
-INSERT INTO professores (rp_professor,nome_prof,sobrenome_prof)
-VALUES (2203948, 'Leandro Alonso', 'Xastre');
+INSERT INTO professores (rp_professor,nome_prof,sobrenome_prof,materia_dada)
+VALUES (17082239, 'Leandro Alonso', 'Xastre', 'Desenvolvimento de Sistemas Web');
+
+INSERT INTO professores (rp_professor,nome_prof,sobrenome_prof,materia_dada)
+VALUES (10533291, 'Valdomiro', 'Placido dos Santos', 'Cálculo 1');
+
+INSERT INTO professores (rp_professor,nome_prof,sobrenome_prof,materia_dada)
+VALUES (73183018, 'Sergio Luiz', 'Moral Marques', 'Robótica Computacional');
