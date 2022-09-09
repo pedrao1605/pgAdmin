@@ -5,4 +5,4 @@ INSERT INTO materias (ID_mat,nome_mat,qtd_cred)
 VALUES (55903, 'Desenvolvimento de Sistemas Web', 3);
 
 INSERT INTO materias (ID_mat,nome_mat,qtd_cred)
-VALUES (22527, 'Robótica Computacional', 2);
+VALUES (22222, 'Robótica Computacional', 2);
