@@ -1,0 +1,62 @@
+CREATE TABLE alunos (
+	RA_aluno INT PRIMARY KEY,
+	nome_aluno VARCHAR(50) NOT NULL,
+	sobrenome_aluno VARCHAR(100) NOT NULL,
+	mat1_aluno VARCHAR(50) NOT NULL,
+	mat2_aluno VARCHAR(50) NULL,
+	mat3_aluno VARCHAR(50) NULL
+
+);
+
+CREATE TABLE materias (
+	ID_mat INT PRIMARY KEY,
+	nome_mat VARCHAR(50) NOT NULL,
+	qtd_cred INT NOT NULL
+
+);
+
+CREATE TABLE professores (
+	RP_professor INT PRIMARY KEY,
+	nome_prof VARCHAR(50) NOT NULL,
+	sobrenome_prof VARCHAR(100) NOT NULL,
+	materia_dada VARCHAR(50) NOT NULL
+
+);
+
+INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
+VALUES (22013918, 'Pedro Augusto', 'Eickhoff', 'Cálculo 1', 'Desenvolvimento de Sistemas Web', '');
+
+INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
+VALUES (22004234, 'Gonzalo', 'Gontijo Roque', 'Robótica Computacional', 'Desenvolvimento de Sistemas Web', 'Cálculo 1');
+
+INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
+VALUES (22003539, 'Kauai', 'Duhamel Buranello', 'Robótica Computacional', '', '');
+
+INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
+VALUES (22002728, 'José', 'Pascoal Martins', 'Cálculo 1', 'Robótica Computacional', '');
+
+INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
+VALUES (21008072, 'Caique', 'Spadari', 'Desenvolvimento de Sistemas Web', '', '');
+
+INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
+VALUES (22002381, 'Gabriel', 'Lopes', 'Cálculo 1', 'Desenvolvimento de Sistemas Web', 'Robótica Computacional');
+
+
+INSERT INTO materias (ID_mat,nome_mat,qtd_cred)
+VALUES (64871, 'Cálculo 1', 4);
+
+INSERT INTO materias (ID_mat,nome_mat,qtd_cred)
+VALUES (55903, 'Desenvolvimento de Sistemas Web', 3);
+
+INSERT INTO materias (ID_mat,nome_mat,qtd_cred)
+VALUES (22527, 'Robótica Computacional', 2);
+
+
+INSERT INTO professores (rp_professor,nome_prof,sobrenome_prof,materia_dada)
+VALUES (17082239, 'Leandro Alonso', 'Xastre', 'Desenvolvimento de Sistemas Web');
+
+INSERT INTO professores (rp_professor,nome_prof,sobrenome_prof,materia_dada)
+VALUES (10533291, 'Valdomiro', 'Placido dos Santos', 'Cálculo 1');
+
+INSERT INTO professores (rp_professor,nome_prof,sobrenome_prof,materia_dada)
+VALUES (73183018, 'Sergio Luiz', 'Moral Marques', 'Robótica Computacional');
