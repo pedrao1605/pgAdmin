@@ -27,16 +27,16 @@ INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,ma
 VALUES (22013918, 'Pedro Augusto', 'Eickhoff', 'Cálculo 1', 'Desenvolvimento de Sistemas Web', '');
 
 INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
-VALUES (22004234, 'Gonzalo', 'Gontijo Roque', 'Robótica Computacional', 'Desenvolvimento de Sistemas Web', 'Cálculo 1');
+VALUES (22004234, 'Gonzalo', 'Gontijo Roque', 'Cálculo 1', 'Desenvolvimento de Sistemas Web', 'Robótica Computacional');
 
 INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
-VALUES (22003539, 'Kauai', 'Duhamel Buranello', 'Robótica Computacional', '', '');
+VALUES (22003539, 'Kauai', 'Duhamel Buranello', '', '', 'Robótica Computacional');
 
 INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
-VALUES (22002728, 'José', 'Pascoal Martins', 'Cálculo 1', 'Robótica Computacional', '');
+VALUES (22002728, 'José', 'Pascoal Martins', 'Cálculo 1', '', 'Robótica Computacional');
 
 INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
-VALUES (21008072, 'Caique', 'Spadari', 'Desenvolvimento de Sistemas Web', '', '');
+VALUES (21008072, 'Caique', 'Spadari', '', 'Desenvolvimento de Sistemas Web', '');
 
 INSERT INTO alunos (ra_aluno,nome_aluno,sobrenome_aluno,mat1_aluno,mat2_aluno,mat3_aluno)
 VALUES (22002381, 'Gabriel', 'Lopes', 'Cálculo 1', 'Desenvolvimento de Sistemas Web', 'Robótica Computacional');
