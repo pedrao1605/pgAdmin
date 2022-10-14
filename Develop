@@ -4,7 +4,8 @@ CREATE TABLE alunos (
 	sobrenome_aluno VARCHAR(100) NOT NULL,
 	mat1_aluno VARCHAR(50) NOT NULL,
 	mat2_aluno VARCHAR(50) NULL,
-	mat3_aluno VARCHAR(50) NULL
+	mat3_aluno VARCHAR(50) NULL,
+	filmes VARCHAR(50) NULL
 
 );
 
